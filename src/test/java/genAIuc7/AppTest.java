@@ -1,6 +1,5 @@
 package genAIuc7;
 
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import java.util.Arrays;
@@ -13,12 +12,7 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class AppTest {
-    private StudentConverter studentConverter;
-
-    @BeforeEach
-    public void setup() {
-        studentConverter = new StudentConverter();
-    }
+    private StudentConverter studentConverter = new StudentConverter();
 
     @Test
     public void testHonorRollForStudentsAbove21AndGradeAbove90() {
