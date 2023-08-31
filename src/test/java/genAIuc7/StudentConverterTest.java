@@ -11,7 +11,7 @@ import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-public class AppTest {
+public class StudentConverterTest {
     private StudentConverter studentConverter = new StudentConverter();
 
     @Test
